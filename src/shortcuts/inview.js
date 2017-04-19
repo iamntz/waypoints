@@ -28,7 +28,7 @@
       }, {
         down: 'exit',
         up: 'entered',
-        offset: 0
+        offset: this.options.offset && this.options.offset.top || 0
       }, {
         down: 'exited',
         up: 'enter',
